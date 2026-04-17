@@ -3,7 +3,7 @@ id: "34dff014-d33b-48ff-9661-393a68d0f37e"
 name: "templates-skills"
 display_name: "Skill Templates"
 description: "Skill templates — processing, content creation, code review, research, and analysis"
-version: "1.0.0"
+version: "1.0.1"
 engine: ">=1.0.0"
 
 # --- Attribution ---
@@ -34,9 +34,9 @@ template: true
 contents:
   skills: 10
   prompts: 0
-  workflows: 1
+  workflows: 0
   services: 0
   sources: 0
   documents: 0
   assets: 0
-  total: 11
+  total: 10

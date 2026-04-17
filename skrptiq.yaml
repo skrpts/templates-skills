@@ -1,0 +1,42 @@
+# --- Identity ---
+id: "34dff014-d33b-48ff-9661-393a68d0f37e"
+name: "templates-skills"
+display_name: "Skill Templates"
+description: "Skill templates — processing, content creation, code review, research, and analysis"
+version: "1.0.0"
+engine: ">=1.0.0"
+
+# --- Attribution ---
+author:
+  name: "skrptiq"
+  url: "https://hub.skrptiq.ai"
+
+licence: "MIT"
+repository: "https://github.com/skrpts/templates-skills"
+
+# --- Discovery (Hub) ---
+category: "templates"
+tags:
+  - "templates"
+  - "skill"
+
+# --- Security & Access ---
+requires:
+  services:
+    - "llm-service"
+  permissions: []
+  data_handling: []
+
+# --- Manifest flags ---
+template: true
+
+# --- Contents ---
+contents:
+  skills: 10
+  prompts: 0
+  workflows: 1
+  services: 0
+  sources: 0
+  documents: 0
+  assets: 0
+  total: 11
